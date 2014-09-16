@@ -1,0 +1,8 @@
+1. now what i did is ki type tree mei ek "Cut of int" daal diya..
+2. ab stack mei queue*sub ki jagah queue*sub*int daalenge..
+3. varmask vale global counter ki tarah matchid naam ka ek counter rakh liya..
+4. dbmatch vala function jab bhi ek queue daalta h stack pe, tab uske saath latest vala matchid bhi daal diya
+5. jab bhi kisi rule se match karke cut daal rhe hote ho queue mei, to Cut ke argument mei current matchid de do
+6. dbmatch mei if i get a cut to match, ek global hashtable mei Cut ke argument se lekar current matchid vale saare ids ke liye set kar diya ki inko process nhi karna
+7. solve function mei stack pe se pop karte waqt check kiya, global hashtable mei se, ki is id vali queue ko process karna h ki nhi
+8. increment matchid only when solve calls dbmatch.
